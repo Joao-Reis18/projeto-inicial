@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster:wght@400;500;600;700&display=swap');
+
+.titulo-pagina{
+    position: relative;
+    color: #3B1F09;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #C47639;
+    width: 100%;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.titulo-pagina span{
+    font-family: 'Lobster', sans-serif;
+    font-size: 42px;
+    width: 120px;
+}
+
+.style-nav{
+    text-align: center;
+    background-color: #d6a179;   
+    font-size: 18px; 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-sizing: border-box;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 20px ;
+    margin-left: 15px;
+    
+}
+
+.style-nav a{
+    color: #000;
+    text-decoration: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.perfil{
+    cursor: pointer;
+    padding: 9px 30px;
+    border-radius: 28px;
+    margin-left: 30px;
+    background-color: #d6a179;
+}
+
+mat-icon{
+    font-size: 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
