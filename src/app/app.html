@@ -2,27 +2,33 @@
 
 
 <body class="body-container">
+    <div class="titulo-container">
+        <span class="titulo">Trufas</span>
+    </div>
 
     <div class="card-container">
 
-        <app-card-padrao-acoes titulo="Cadastrar Sabor" descricao="Cadastrar novos sabores para venda"
+        <app-card-padrao-acoes titulo="Cadastrar Sabor" icone="add_shopping_cart"
             corTitulo="#331202" corCard="#4A1F0B">
         </app-card-padrao-acoes>
 
-        <app-card-padrao-acoes titulo="Adicionar Estoque" descricao="Adicionar novas quantias de produto"
-            corTitulo="#103257" corCard="#1E4E79"></app-card-padrao-acoes>
+        <app-card-padrao-acoes titulo="Estoque"
+            corTitulo="#103257" corCard="#1E4E79" icone="add_box"></app-card-padrao-acoes>
 
-        <app-card-padrao-acoes titulo="Vender" descricao="Efetuar venda de produtos" corTitulo="#2E7D32"
+        <app-card-padrao-acoes titulo="Vender" icone="paid" corTitulo="#2E7D32"
             corCard="#309926"></app-card-padrao-acoes>
 
-        <app-card-padrao-acoes titulo="Relatório Financeiro" descricao="Visualizar relatório financeiro"
+        <app-card-padrao-acoes titulo="Relatório Financeiro" icone="add_chart"
             corTitulo="#B86600" corCard="#CC6A00"></app-card-padrao-acoes>
 
-        <app-card-padrao-acoes titulo="Cadastrar Gastos" descricao="Informar os gastos para produção dos produtos"
+        <app-card-padrao-acoes titulo="Cadastrar Gastos" icone="money_off"
             corTitulo="#870000" corCard="#A71919"></app-card-padrao-acoes>
 
-        <app-card-padrao-acoes titulo="Sair" descricao="Sair da conta" corTitulo="#C62828"
+        <app-card-padrao-acoes titulo="Sair" icone="logout" corTitulo="#C62828"
             corCard="#C62828"></app-card-padrao-acoes>
+    </div>
+    <div>
+        <app-card-relatorio></app-card-relatorio>
     </div>
 
 </body>
