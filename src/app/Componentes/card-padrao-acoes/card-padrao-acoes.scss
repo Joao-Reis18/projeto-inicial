@@ -14,14 +14,41 @@
     
 }
 
+@media(max-width: 1366px){
+    .card{
+    width: 170px;
+    height: 170px;
+    align-items: center;
+
+    border-radius: 25px;
+
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: 0.3s
+    }
+    .titulo-card{
+    padding: 10px;
+    height: 30px !important;
+    color: white;
+    font-size: 19px !important;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
 .card:hover {
     transform: translatey(-10px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .titulo-card {
-    padding-top: 15px;
-    height: 50px;
+    padding: 10px;
+    height: 40px;
     color: white;
     font-size: 22px;
     text-align: center;
@@ -29,6 +56,7 @@
     border-top-right-radius: 25px;
     text-align: center;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -39,7 +67,6 @@
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;
     font-weight: 600;
 }
 

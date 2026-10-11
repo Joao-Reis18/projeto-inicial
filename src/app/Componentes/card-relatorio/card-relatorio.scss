@@ -23,6 +23,13 @@
     border-top-right-radius: 25px;
 }
 
+@media(max-width: 1366px){
+    .card-titulo{
+        height: 35px;
+        font-size: 19px;
+    }
+}
+
 .card-titulo span{
     margin: 0;
     padding: 0;
