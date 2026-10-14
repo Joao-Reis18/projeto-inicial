@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
-import { PadraoCard } from './Componentes/padrao-card/padrao-card';
+import { Navbar } from './Componentes/navbar/navbar';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [PadraoCard],
+  imports: [Navbar, RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

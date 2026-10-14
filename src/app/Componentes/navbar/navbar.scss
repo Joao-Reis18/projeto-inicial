@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster:wght@400;500;600;700&display=swap');
+
+.titulo-pagina{
+    position: relative;
+    color: #3B1F09;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #C47639;
+    width: 100%;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+@media(max-width: 1366px){
+    .titulo-pagina{
+        height: 60px;
+    }
+    .titulo-pagina span{
+        font-size:32px !important;
+        width: 105px !important;
+    }
+
+    .style-nav{
+        font-size: 14px !important;
+    }
+    mat-icon{
+        font-size: 26px !important;
+    }
+
+    .perfil{
+    padding: 4px 15px !important;
+    margin-left: 15px !important;
+}
+}
+
+.titulo-pagina span{
+    font-family: 'Lobster', sans-serif;
+    font-size: 42px;
+    width: 120px;
+}
+
+.style-nav{
+    overflow: auto;
+    text-align: center;
+    background-color: #d6a179;   
+    font-size: 18px; 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-sizing: border-box;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-right: 20px ;
+    margin-left: 15px;
+    
+}
+
+::-webkit-scrollbar {
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.style-nav a{
+    color: #000;
+    text-decoration: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.perfil{
+    cursor: pointer;
+    padding: 9px 30px;
+    border-radius: 28px;
+    margin-left: 30px;
+    background-color: #d6a179;
+}
+
+mat-icon{
+    font-size: 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
