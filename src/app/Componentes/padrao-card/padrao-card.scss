@@ -99,3 +99,39 @@ mat-icon{
     align-items: center;
     justify-content: center;
 }
+
+.card-container{
+    display: grid;
+    flex-wrap: wrap;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    margin: 20px 60px;
+    justify-content: center;
+}
+
+.body-container{
+    background-color: #FBE3D0;
+    border-radius: 15px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', sans-serif;
+    font-size: 35px;
+    width: 120px;
+    color: #3B1F09;
+}
+
+.titulo-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+.body-container{
+    background-color: #FBE3D0;
+}

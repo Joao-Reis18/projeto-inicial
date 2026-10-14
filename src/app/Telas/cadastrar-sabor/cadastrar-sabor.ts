@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
-import { CardTituloPagina } from '../../Componentes/card-titulo-pagina/card-titulo-pagina';
+import { MatSelectModule } from '@angular/material/select';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @Component({
   selector: 'app-cadastrar-sabor',
-  imports: [CardTituloPagina],
+  standalone: true,
+  imports: [MatSelectModule,MatInputModule, MatFormFieldModule],
   templateUrl: './cadastrar-sabor.html',
   styleUrl: './cadastrar-sabor.scss',
 })
-export class CadastrarSabor {}
+export class CadastrarSabor { }

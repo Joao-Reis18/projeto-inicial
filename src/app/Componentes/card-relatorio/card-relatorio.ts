@@ -4,6 +4,7 @@ import { CardPadraoResumoFin } from '../card-padrao-resumo-fin/card-padrao-resum
 
 @Component({
   selector: 'app-card-relatorio',
+  standalone: true,
   imports: [CardPadraoResumoFin],
   templateUrl: './card-relatorio.html',
   styleUrl: './card-relatorio.scss',

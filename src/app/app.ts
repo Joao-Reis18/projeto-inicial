@@ -1,13 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { Card } from "./Componentes/card-padrao-acoes/card-padrao-acoes";
-import { CardTituloPagina } from "./Componentes/card-titulo-pagina/card-titulo-pagina";
-import { MatIcon } from "@angular/material/icon";
-import { CardRelatorio } from './Componentes/card-relatorio/card-relatorio';
+import { PadraoCard } from './Componentes/padrao-card/padrao-card';
 
 @Component({
   selector: 'app-root',
-  imports: [Card, CardTituloPagina, CardRelatorio],
+  standalone: true,
+  imports: [PadraoCard],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

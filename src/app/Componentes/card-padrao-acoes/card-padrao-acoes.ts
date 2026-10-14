@@ -4,6 +4,7 @@ import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-card-padrao-acoes',
+  standalone: true,
   imports: [MatIconModule, NgIf],
   templateUrl: './card-padrao-acoes.html',
   styleUrl: './card-padrao-acoes.scss',
