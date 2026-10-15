@@ -1,5 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster:wght@400;500;600;700&display=swap');
+
 .body-container{
     background-color: #FBE3D0;
     border-radius: 15px;
-    margin: 5px 10px;
+    margin: 5px 15px;
+    padding: 0;
+}
+
+.titulo-pag{
+    background-color: #cd9d75;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+    margin: 15px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px 0px 15px 0;
+    font-family: 'Lobster', sans-serif !important;
+    color: #3B1F09;
+}
+
+.conteudo-card{
+    margin: 15px;
 }
