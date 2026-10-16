@@ -5,26 +5,34 @@
     <div class="card-container">
         <app-card-padrao-acoes titulo="Cadastrar Sabor" icone="add_shopping_cart" corTitulo="#331202" corCard="#4A1F0B">
             <a routerLink="/cadastrar-sabor"></a>
-            
-
         </app-card-padrao-acoes>
 
         <app-card-padrao-acoes titulo="Estoque" corTitulo="#103257" corCard="#1E4E79"
-            icone="add_box"></app-card-padrao-acoes>
+            icone="add_box">
+            <a routerLink="/estoque"></a></app-card-padrao-acoes>
 
         <app-card-padrao-acoes titulo="Vender" icone="paid" corTitulo="#2E7D32"
-            corCard="#309926"></app-card-padrao-acoes>
+            corCard="#309926">
+            <a routerLink="/vender"></a>
+            </app-card-padrao-acoes>
 
         <app-card-padrao-acoes titulo="Relatório Financeiro" icone="add_chart" corTitulo="#B86600"
-            corCard="#CC6A00"></app-card-padrao-acoes>
+            corCard="#CC6A00">
+            <a routerLink="/relatorio-financeiro"></a>
+            </app-card-padrao-acoes>
 
         <app-card-padrao-acoes titulo="Cadastrar Gastos" icone="money_off" corTitulo="#870000"
-            corCard="#A71919"></app-card-padrao-acoes>
+            corCard="#A71919">
+            <a routerLink="/gastos"></a>    
+        </app-card-padrao-acoes>
 
         <app-card-padrao-acoes titulo="Sair" icone="logout" corTitulo="#C62828"
-            corCard="#C62828"></app-card-padrao-acoes>
+            corCard="#C62828">
+            <a routerLink=""></a>    
+        </app-card-padrao-acoes>
     </div>
     <div>
         <app-card-relatorio></app-card-relatorio>
     </div>
+    
 </app-padrao-card>
