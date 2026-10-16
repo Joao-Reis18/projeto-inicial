@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 @Component({
@@ -9,4 +9,5 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   styleUrl: './padrao-card.scss',
 })
 export class PadraoCard {
+  tituloPagina = input('')
 }
