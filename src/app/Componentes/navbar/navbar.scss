@@ -5,7 +5,7 @@
     color: #3B1F09;
     display: flex;
     align-items: center;
-    height: 80px;
+    height: 60px;
     background-color: #C47639;
     width: 100%;
     gap: 10px;
@@ -13,9 +13,6 @@
 }
 
 @media(max-width: 1366px){
-    .titulo-pagina{
-        height: 60px;
-    }
     .titulo-pagina span{
         font-size:32px !important;
         width: 105px !important;
@@ -29,33 +26,40 @@
     }
 
     .perfil{
-    padding: 4px 15px !important;
+    
     margin-left: 15px !important;
 }
 }
 
 .titulo-pagina span{
     font-family: 'Lobster', sans-serif;
-    font-size: 42px;
+    font-size: 38px;
     width: 120px;
 }
 
 .style-nav{
     overflow: auto;
-    text-align: center;
     background-color: #d6a179;   
-    font-size: 18px; 
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    box-sizing: border-box;
+    font-size: 15px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     height: 50px;
-    justify-content: center;
     display: flex;
     align-items: center;
-    gap: 25px;
-    padding-right: 20px ;
-    margin-left: 15px;
-    
+    gap: 5px;
+}
+
+a{
+    margin: 0px 5px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:hover{
+    border-radius: 15px !important;
+    border: 1px solid white;
+    font-weight: 500 !important;
 }
 
 ::-webkit-scrollbar {
@@ -76,26 +80,23 @@
   border-radius: 4px;
 }
 
-.style-nav a{
-    color: #000;
-    text-decoration: none;
-    border-radius: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.perfil{
+.icons-nav{
     cursor: pointer;
-    padding: 9px 30px;
     border-radius: 28px;
     margin-left: 30px;
     background-color: #d6a179;
 }
 
 mat-icon{
-    font-size: 30px;
-    margin: 0;
+    padding: 20px !important;
+    font-size: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.campos-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -6,6 +6,7 @@
     align-items: center;
 
     border-radius: 25px;
+    border-bottom: 1px solid rgb(134, 132, 132);;
 
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
@@ -28,16 +29,11 @@
     transition: 0.3s
     }
     .titulo-card{
-    padding: 10px;
-    height: 30px !important;
-    color: white;
+    padding: 10px !important;
     font-size: 19px !important;
-    text-align: center;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    }
+    .descricao-card{
+        padding: 10px 30px !important;
     }
 }
 
@@ -48,7 +44,7 @@
 
 .titulo-card {
     padding: 10px;
-    height: 40px;
+    height: 60px;
     color: white;
     font-size: 22px;
     text-align: center;
@@ -57,15 +53,14 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    display: flex;
 
 }
-
 .descricao-card {
     padding: 30px;
     color: white;
     font-size: 18px;
     display: flex;
-    text-align: center;
     align-items: center;
     font-weight: 600;
 }
