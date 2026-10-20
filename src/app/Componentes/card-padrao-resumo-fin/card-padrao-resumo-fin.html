@@ -1,15 +1,14 @@
-<div class="container-card">
-    <div class="card" [style.background-color]="corCard()">
+<div class="card" [style.background-color]="corCard()">
 
-        <div class="titulo-card" [style.background-color]="corTitulo()">
-            <b [style.color]="corTituloLetra()">{{ titulo() }}</b>
-            <mat-icon class="icon-acoes" *ngIf="icone()" [style.color]="corDescricaoLetra()">{{icone()}}</mat-icon>
+    <div class="titulo-card" [style.background-color]="corTitulo()">
+        <b [style.color]="corTituloLetra()">{{ titulo() }}</b>
+        <div> 
+            <mat-icon class="icons" *ngIf="icone()" [style.color]="corDescricaoLetra()">{{icone()}}</mat-icon>
         </div>
+    </div>
 
-        <div class="descricao-card">
-            
-            <span [style.color]="corDescricaoLetra()">{{descricao()}}</span>
-        </div>
+    <div class="descricao-card">
 
+        <span [style.color]="corDescricaoLetra()">{{descricao()}}</span>
     </div>
 </div>
