@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { PadraoCard } from '../../Componentes/padrao-card/padrao-card';
 
 @Component({
   selector: 'app-estoque',
   standalone: true,
-  imports: [],
+  imports: [PadraoCard],
   templateUrl: './estoque.html',
   styleUrl: './estoque.scss',
 })
