@@ -17,4 +17,5 @@ export class Card {
   corDescricaoLetra=input('');
   icone=input('');
   bordacard=input('')
+  descricao=input('')
 }

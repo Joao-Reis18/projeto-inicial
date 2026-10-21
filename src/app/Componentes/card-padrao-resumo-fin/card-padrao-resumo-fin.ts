@@ -17,4 +17,5 @@ export class CardPadraoResumoFin {
   corDescricaoLetra=input('');
   icone=input('');
   descricao=input('')
+  bordacard=input('')
 }

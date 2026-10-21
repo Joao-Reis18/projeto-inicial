@@ -39,3 +39,9 @@ body {
   height: 100%;
 }
 /* You can add global styles to this file, and also import other style files */
+
+
+a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: #3B1F09;         /* Altera a cor do texto */
+}
