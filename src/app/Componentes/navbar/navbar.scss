@@ -49,14 +49,14 @@
     gap: 5px;
 }
 
-a{
+.style-nav a{
     margin: 0px 5px;
     cursor: pointer;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-a:hover{
+.style-nav a:hover{
     border-radius: 15px !important;
     border: 1px solid white;
     font-weight: 500 !important;
@@ -97,6 +97,6 @@ mat-icon{
 
 .campos-icons{
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin-left: auto !important;
 }
