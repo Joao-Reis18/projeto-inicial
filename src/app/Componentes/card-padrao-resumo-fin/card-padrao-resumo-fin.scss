@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-.card {
+mat-card {
     width: 220px;
     height: 200px;
     align-items: center;
@@ -14,7 +14,7 @@
 }
 
 @media(max-width: 1366px){
-    .card{
+    mat-card{
     width: 170px;
     height: 170px;
     align-items: center;
@@ -26,7 +26,7 @@
         padding: 10px !important;
     }
 
-    .descricao-card{
+    .texto-descricao{
         font-size: 18px !important;
         margin-top: 50px !important;
     }
@@ -50,22 +50,19 @@
 
 }
 
-.descricao-card {
-    padding: 30px;
+.texto-descricao {
     font-size: 20px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    margin-top: 30px;
+    bottom: 60px;
 }
 .icons{
-    margin-top: 10px !important;
     height: 50px;
     width: 50px !important;
 }
 
 mat-icon{
     font-size: 35px !important;
+}
+
+.icon-container{
+    text-align: center;
 }

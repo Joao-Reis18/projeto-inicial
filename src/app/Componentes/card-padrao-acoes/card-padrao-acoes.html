@@ -1,11 +1,8 @@
-<div class="container-card">
-    <div class="card" [style.background-color]="corCard()" [style.border-color]="bordacard()">
-
-    <div class="titulo-card w-100" [style.background-color]="corTitulo()">
-        <b [style.color]="corTituloLetra()">{{ titulo() }}</b>
-    </div>
-
-    <div class="descricao-card">
-        <mat-icon class="icon-acoes" *ngIf="icone()" [style.color]="corDescricaoLetra()">{{icone()}}</mat-icon>
-    </div>
-</div>
+<mat-card [style.background-color]="corCard()">
+    <mat-card-header class="titulo-card w-100">
+        <mat-card-title>{{titulo()}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="descricao-card">
+        <mat-icon class="icon-acoes">{{icone()}}</mat-icon>
+    </mat-card-content>
+</mat-card>
