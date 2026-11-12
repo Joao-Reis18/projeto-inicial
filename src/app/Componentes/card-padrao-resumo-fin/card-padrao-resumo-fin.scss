@@ -11,6 +11,10 @@ mat-card {
     font-family: 'Poppins', sans-serif;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 
+    border: 1px solid gray;
+
+    text-align: center;
+
 }
 
 @media(max-width: 1366px){
@@ -63,6 +67,12 @@ mat-icon{
     font-size: 35px !important;
 }
 
-.icon-container{
+.container-icone{
     text-align: center;
+    margin-top: 25px;
+}
+
+mat-card-content{
+    height: 100%;
+    padding-top: 20px;
 }
